@@ -1,0 +1,66 @@
+* {
+	margin: 0px;
+}
+
+/*
+div {
+	border: 1px dotted black;
+}
+*/
+
+.header-container {
+	background-color: rgba(250,100,100,.2);
+	padding: 20px;
+}
+
+.container {
+	background-color: rgba(100,250,100,.2);
+	padding: 20px;
+}
+
+.top-bar {
+	background-color: rgba(75,250,75,.2);
+	margin: -20px -20px 40px -20px;
+	padding: 5px;
+	text-align: right;
+}
+
+.tab-pane {
+	background-color: rgba(100, 100, 250, .2);
+	height: 300px;
+	margin: 10px auto 10px auto;
+}
+
+.bottom-pane {
+	margin-top: 40px;
+}
+
+.button {
+	border-radius: 8px;
+}
+
+.stuSchBtns {
+	display: table-cell;
+	width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.schBtnsTable {
+	display: table;
+	width: 100%;
+}
+
+.schBtnsRow {
+	display: table-row;
+}
+
+.schBtns {
+	display: table-cell;
+}
+
+.button clearAll_btn {
+	float: right;
+}

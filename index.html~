@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Schedule Maker</title>
+	<link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="MainController.js"></script>
+</head>
+<body ng-app="myApp">
+
+<div class="header-container">
+	<div class="header">
+	  <h1>Schedule Maker</h1>
+	</div>
+</div>
+
+<div ng-controller="MainController">
+	<div class="container">
+		<div class="top-bar">
+			<button class="button options_btn" ng-click="options()">Options</button>
+		</div>
+		
+		<div class="stuSchBtns left">
+			<button class="button add_btn" ng-click="add()">Add Student</button>
+			<button class="button remove_btn" ng-click="remove()">Remove Student</button>
+		</div>
+		
+		<div class="stuSchBtns right">
+			<button class="button clear_btn" ng-click="clear()">Clear</button>
+		</div>
+			
+		<div class="tab-pane top-pane">
+			Student Schedules
+		</div>
+			
+			
+		<div class="schBtnsTable">
+			<div class="schBtnsRow">
+				<div class="schBtns left">
+					<button class="button generate_btn" ng-click="generate()">Generate</button>
+				</div>
+			
+				<div class="schBtns right">
+					<button class="button clearAll_btn" ng-click="clearAll()">Clear All</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tab-pane bottom-pane">
+			Work Schedule
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>
